@@ -11,9 +11,9 @@ const UserProfile = styled.div`
 
   box-shadow: 0px 0px 300px 24px rgba(0, 0, 0, 0.28);
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 `;
 const Userinfo = styled.div`
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,19 +36,49 @@ const UserName = styled.p`
   font-weight: 700;
 `;
 const UserTag = styled.p`
-  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
 `;
 const UserLocation = styled.p`
-  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
 `;
 const UserStats = styled.ul`
-  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  & li {
+    display: inline-flex;
+    flex-basis: calc((100% / 3) - 20px - 2px);
+    flex-direction: column;
+    padding: 10px;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
 `;
 const StatsLabel = styled.span`
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
 `;
 const StatsQuantity = styled.span`
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
 `;
 
 export {
