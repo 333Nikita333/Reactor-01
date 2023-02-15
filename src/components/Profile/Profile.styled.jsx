@@ -4,12 +4,14 @@ const UserProfile = styled.div`
   max-width: 350px;
   margin-right: auto;
   margin-left: auto;
+  padding: 25px 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  box-shadow: 0px 0px 300px 24px rgba(0, 0, 0, 0.28);
+  background-color: #ffffff;
+  box-shadow: 2px -3px 37px -3px rgba(0,0,0,0.75);
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 `;
@@ -18,7 +20,6 @@ const Userinfo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 0;
 `;
 const UserAvatar = styled.img`
   display: block;
