@@ -8,7 +8,7 @@ const Friends = styled.ul`
   align-items: center;
   justify-content: center;
   padding: 0;
-  
+
   list-style: none;
 `;
 const Friend = styled.li`

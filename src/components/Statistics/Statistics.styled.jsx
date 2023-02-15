@@ -18,7 +18,7 @@ const StatisticsSection = styled.section`
 const StatisticsTitle = styled.h2`
   margin: 0;
   margin-bottom: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   font-size: 20px;
   font-weight: 700;

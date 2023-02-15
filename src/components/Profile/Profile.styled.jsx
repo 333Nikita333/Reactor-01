@@ -11,7 +11,7 @@ const UserProfile = styled.div`
   justify-content: center;
 
   background-color: #ffffff;
-  box-shadow: 2px -3px 37px -3px rgba(0,0,0,0.75);
+  box-shadow: 2px -3px 37px -3px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 `;
