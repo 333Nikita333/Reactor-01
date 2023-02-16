@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import getRandomColor from './utils/getRandomColor';
 
 const StatisticsSection = styled.section`
-  max-width: 350px;
+  max-width: 600px;
   margin: 20px auto 0;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,6 @@ const StatisticsTitle = styled.h2`
 `;
 const StatisticsList = styled.ul`
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -36,7 +35,7 @@ const StatisticsItem = styled.li`
   text-align: center;
 
   display: inline-flex;
-  flex-basis: calc((100% / 3) - 20px - 2px);
+  flex-basis: calc((100% / 5) - 20px - 2px);
   flex-direction: column;
   padding: 10px;
 
